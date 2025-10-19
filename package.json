@@ -1,0 +1,16 @@
+{
+  "name": "posix-shell-javascript",
+  "version": "1.0.0",
+  "description": "Build your own Shell challenge, from CodeCrafters",
+  "main": "./app/main.js",
+  "scripts": {
+    "dev": "node app/main.js",
+    "test": "jest",
+    "start": "node app/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
