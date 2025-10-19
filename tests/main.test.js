@@ -146,3 +146,22 @@ describe("POSIX - REDIRECTION", () => {
     }
   });
 });
+
+// describe("basic features - POSIX", () => {
+
+//
+// This test will not work directly as The SHELL was implemented with the help of code crafters
+// and they provided support for external program excecution and Built-in Executable files
+//
+
+//   // it("type builtin finds executables on PATH", async () => {
+//   //   // check for node (available because we run node)
+//   //   const { stdout } = await runShell(["type node"]);
+//   //   expect(stdout).toMatch(/not found/);
+//   // });
+
+//   //   it("run external program (node -e) prints output", async () => {
+//   //     const { stdout } = await runShell([`node -e "process.stdout.write('OK')"`]);
+//   //     expect(stdout).toMatch(/OK/);
+//   //   });
+// });
