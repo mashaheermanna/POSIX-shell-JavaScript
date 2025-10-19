@@ -92,7 +92,7 @@ describe("POSIX - Navigation", () => {
   });
 });
 
-describe("POSIX - REDIRFECTION", () => {
+describe("POSIX - REDIRECTION", () => {
   it("redirect stdout with > creates file with content", async () => {
     const fn = path.join(os.tmpdir(), `out-${Date.now()}.txt`);
     try {
