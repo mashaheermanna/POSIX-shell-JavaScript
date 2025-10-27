@@ -39,7 +39,7 @@ npm start / npm run dev
 
 
 #### Example Commands
-echo "Hello World"
+echo "Hello World" \n
 pwd
 ls > out.txt
 
