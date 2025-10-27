@@ -3,7 +3,8 @@
 A shell is the program that interprets what you type into the terminal. It reads your commands, runs programs, and prints their output. Popular examples are Bash and ZSH.
 
 In this challenge, I'll build my own shell from scratch.
-
+To understand command parsing, process execution, and file redirection in Node.js.
+ 
 shell will run a REPL, parse commands, spawn processes, and more.
 
 has features like
@@ -26,3 +27,20 @@ has features like
 - Redirect stderr
 - Append stdout
 - Append stderr
+
+#### System Requirements	
+Node.js, NPM, Terminal
+
+#### Installation
+npm install
+
+#### Execution 
+npm start / npm run dev
+
+
+#### Example Commands
+echo "Hello World"
+pwd
+ls > out.txt
+
+
