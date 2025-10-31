@@ -28,19 +28,25 @@ has features like
 - Append stdout
 - Append stderr
 
+## How To Run
+
 #### System Requirements	
-Node.js, NPM, Terminal
+Node.js(7.27.1), NPM, Terminal
 
 #### Installation
 npm install
 
-#### Execution 
+#### Execution / Run 
 npm start / npm run dev
 
+#### How To run Test
+npm test
 
 #### Example Commands
-echo "Hello World" \n
+echo "Hello World" 
+
 pwd
+
 ls > out.txt
 
 
